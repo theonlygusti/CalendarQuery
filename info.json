@@ -1,0 +1,9 @@
+{
+  "name": "calendarquery",
+  "displayName": "Calendar Query",
+  "description": "Search your device's calendars for events",
+  "examples": ["when is my next meeting", "what do I have to do tomorrow"],
+  "categories": ["Utilities"],
+  "creator_name": "George Bakewell",
+  "creator_url": "https://github.com/theonlygusti"
+}
