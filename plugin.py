@@ -1,10 +1,11 @@
+#!/usr/bin/python
+import subprocess
+
 def results(fields, original_query):
-    message = fields["~message"]
-    html = "Lorem ipsum dolor sit amet"
     return {
-        "title": "When '{0}'".format(message),
-        "run_args": [message],
-        "html": html
+        "title": "Calendar Query",
+        "run_args": [],
+        "html": str(fields) + "<br>" + str(original_query)
     }
 
 def run(query):

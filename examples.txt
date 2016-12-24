@@ -1,1 +1,4 @@
-when ~message(Good Morning)
+when is ~event(the science test)
+what time ~event(does Claire's flight finish?)
+when do I have ~event(the meeting with David)
+what do I have @date(tomorrow)
